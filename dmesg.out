@@ -1,0 +1,100 @@
+[    1.863361] usb 1-1.1: new full-speed USB device number 4 using xhci_hcd
+[    1.958946] usb 1-1.1: New USB device found, idVendor=1d57, idProduct=ad03, bcdDevice= 4.07
+[    1.958949] usb 1-1.1: New USB device strings: Mfr=2, Product=1, SerialNumber=0
+[    1.958950] usb 1-1.1: Product: Gaming Mouse
+[    1.958951] usb 1-1.1: Manufacturer: SOAI
+[    1.967628] input: SOAI Gaming Mouse as /devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.1/1-1.1:1.0/0003:1D57:AD03.0001/input/input7
+[    1.976347] random: dbus-daemon: uninitialized urandom read (12 bytes read)
+[    1.988987] random: dbus-daemon: uninitialized urandom read (12 bytes read)
+[    2.019808] hid-generic 0003:1D57:AD03.0001: input,hidraw0: USB HID v1.10 Keyboard [SOAI Gaming Mouse] on usb-0000:00:14.0-1.1/input0
+[    2.021347] input: SOAI Gaming Mouse as /devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.1/1-1.1:1.1/0003:1D57:AD03.0002/input/input8
+[    2.021501] input: SOAI Gaming Mouse Consumer Control as /devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.1/1-1.1:1.1/0003:1D57:AD03.0002/input/input9
+[    2.072549] usb 1-9: new full-speed USB device number 5 using xhci_hcd
+[    2.090620] input: SOAI Gaming Mouse System Control as /devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.1/1-1.1:1.1/0003:1D57:AD03.0002/input/input10
+[    2.090655] hid-generic 0003:1D57:AD03.0002: input,hidraw1: USB HID v1.10 Mouse [SOAI Gaming Mouse] on usb-0000:00:14.0-1.1/input1
+[    2.095270] nouveau 0000:01:00.0: DRM: unknown connector type 48
+[    2.095281] nouveau 0000:01:00.0: DRM: unknown connector type 48
+[    2.095289] nouveau 0000:01:00.0: DRM: unknown connector type 48
+[    2.217423] usb 1-9: New USB device found, idVendor=06cb, idProduct=00bd, bcdDevice= 0.00
+[    2.217427] usb 1-9: New USB device strings: Mfr=0, Product=0, SerialNumber=1
+[    2.217428] usb 1-9: SerialNumber: 1827674eb495
+[    2.297488] usb 1-1.4: new full-speed USB device number 6 using xhci_hcd
+[    2.387974] usb 1-1.4: New USB device found, idVendor=24f0, idProduct=0140, bcdDevice= 1.00
+[    2.387977] usb 1-1.4: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[    2.387978] usb 1-1.4: Product: Das Keyboard
+[    2.387979] usb 1-1.4: Manufacturer: Metadot - Das Keyboard
+[    2.393730] input: Metadot - Das Keyboard Das Keyboard as /devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.4/1-1.4:1.0/0003:24F0:0140.0003/input/input11
+[    2.432564] nouveau 0000:01:00.0: DRM: allocated 3840x2160 fb: 0x200000, bo 000000003e4e105c
+[    2.433525] fbcon: nouveaudrmfb (fb0) is primary device
+[    2.446476] hid-generic 0003:24F0:0140.0003: input,hidraw2: USB HID v1.10 Keyboard [Metadot - Das Keyboard Das Keyboard] on usb-0000:00:14.0-1.4/input0
+[    2.447571] input: Metadot - Das Keyboard Das Keyboard System Control as /devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.4/1-1.4:1.1/0003:24F0:0140.0004/input/input12
+[    2.499417] input: Metadot - Das Keyboard Das Keyboard Consumer Control as /devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1.4/1-1.4:1.1/0003:24F0:0140.0004/input/input13
+[    2.499491] hid-generic 0003:24F0:0140.0004: input,hidraw3: USB HID v1.10 Device [Metadot - Das Keyboard Das Keyboard] on usb-0000:00:14.0-1.4/input1
+[    2.501326] usb 1-11: new full-speed USB device number 7 using xhci_hcd
+[    2.572330] random: crng init done
+[    2.572330] random: 2 urandom warning(s) missed due to ratelimiting
+[    2.637617] usb 1-11: New USB device found, idVendor=058f, idProduct=9540, bcdDevice= 1.20
+[    2.637618] usb 1-11: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[    2.637618] usb 1-11: Product: EMV Smartcard Reader
+[    2.637619] usb 1-11: Manufacturer: Generic
+[    2.752347] usb 1-14: new full-speed USB device number 8 using xhci_hcd
+[    2.879810] usb 1-14: New USB device found, idVendor=8087, idProduct=0029, bcdDevice= 0.01
+[    2.879811] usb 1-14: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+[    3.841554] Console: switching to colour frame buffer device 240x67
+[    3.946373] nouveau 0000:01:00.0: [drm] fb0: nouveaudrmfb frame buffer device
+[    3.946573] [drm] Initialized nouveau 1.3.1 20120801 for 0000:01:00.0 on minor 0
+[    3.946577] nouveau 0000:01:00.0: DRM: Disabling PCI power management to avoid bug
+[    5.054173] e1000e 0000:00:1f.6 enp0s31f6: NIC Link is Up 1000 Mbps Full Duplex, Flow Control: Rx/Tx
+[    5.054224] IPv6: ADDRCONF(NETDEV_CHANGE): enp0s31f6: link becomes ready
+[   11.928175] systemd-xdg-autostart-generator[462]: Not generating service for XDG autostart app-at\x2dspi\x2ddbus\x2dbus-autostart.service, startup phases are not supported.
+[   11.928870] systemd-xdg-autostart-generator[462]: Not generating service for XDG autostart app-pulseaudio-autostart.service, startup phases are not supported.
+[   62.561725] iwlwifi 0000:52:00.0: api flags index 2 larger than supported by driver
+[   62.562776] iwlwifi 0000:52:00.0: TLV_FW_FSEQ_VERSION: FSEQ Version: 89.3.35.22
+[   62.563766] iwlwifi 0000:52:00.0: Found debug destination: EXTERNAL_DRAM
+[   62.564740] iwlwifi 0000:52:00.0: Found debug configuration: 0
+[   62.566220] iwlwifi 0000:52:00.0: loaded firmware version 55.d9698065.0 cc-a0-55.ucode op_mode iwlmvm
+[  124.072284] iwlwifi 0000:52:00.0: Detected Intel(R) Wi-Fi 6 AX200 160MHz, REV=0x340
+[  124.277306] iwlwifi 0000:52:00.0: base HW address: 60:f2:62:15:59:87
+[  124.291467] thermal thermal_zone2: failed to read out thermal zone (-61)
+[  124.291799] ------------[ cut here ]------------
+[  124.293000] WARNING: CPU: 6 PID: 349 at net/wireless/nl80211.c:7301 nl80211_get_reg_do+0x1ec/0x220 [cfg80211]
+[  124.294030] Modules linked in: iwlmvm mac80211 cmac x86_pkg_temp_thermal iwlwifi wmi_bmof nouveau kvm_intel kvm hwmon mxm_wmi ttm irqbypass i2c_algo_bit drm_kms_helper syscopyarea cfg80211 sysfillrect sysimgblt fb_sys_fops rfkill nvidiafb vgastate ucsi_acpi typec_ucsi typec wmi video drm backlight
+[  124.296054] CPU: 6 PID: 349 Comm: iwd Not tainted 5.9.12 #1
+[  124.297084] Hardware name: LENOVO 20QN002PMX/20QN002PMX, BIOS N2NET40W (1.25 ) 08/26/2020
+[  124.298122] RIP: 0010:nl80211_get_reg_do+0x1ec/0x220 [cfg80211]
+[  124.299058] Code: 24 0c 01 00 00 00 e8 e3 52 b2 fc 85 c0 0f 84 01 ff ff ff eb a6 48 89 ef 48 89 04 24 e8 fd 95 de fc 48 8b 04 24 e9 43 ff ff ff <0f> 0b 48 89 ef e8 ea 95 de fc b8 ea ff ff ff e9 2f ff ff ff e9 78
+[  124.300359] RSP: 0018:ffffb3a4c0c77c00 EFLAGS: 00010202
+[  124.302119] RAX: 0000000000000000 RBX: 0000000000000001 RCX: 0000000000000000
+[  124.303187] RDX: ffff9a85e2170008 RSI: 0000000000000000 RDI: ffff9a85e21702e0
+[  124.304149] RBP: ffff9a8619245c00 R08: 0000000000000004 R09: ffff9a85e1c8a014
+[  124.304876] R10: 000000000000001c R11: ffffffffc0304310 R12: ffffb3a4c0c77c58
+[  124.305497] R13: 0000000000000000 R14: ffff9a85e1c8a014 R15: ffff9a85e21702e0
+[  124.306096] FS:  00007f632866f740(0000) GS:ffff9a8620b80000(0000) knlGS:0000000000000000
+[  124.306678] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[  124.307283] CR2: 000055d943d7e050 CR3: 00000008125f4001 CR4: 00000000003706e0
+[  124.307927] DR0: 0000000000000000 DR1: 0000000000000000 DR2: 0000000000000000
+[  124.308534] DR3: 0000000000000000 DR6: 00000000fffe0ff0 DR7: 0000000000000400
+[  124.309206] Call Trace:
+[  124.310003]  ? _cond_resched+0x10/0x20
+[  124.310829]  genl_rcv_msg+0x19f/0x300
+[  124.311621]  ? genl_start+0x140/0x140
+[  124.312420]  netlink_rcv_skb+0x44/0x110
+[  124.313156]  genl_rcv+0x1f/0x30
+[  124.314090]  netlink_unicast+0x18c/0x230
+[  124.314825]  netlink_sendmsg+0x220/0x450
+[  124.315756]  sock_sendmsg+0x59/0x60
+[  124.317231]  __sys_sendto+0xe9/0x150
+[  124.318072]  ? __sys_recvmsg+0x51/0xa0
+[  124.318838]  ? do_epoll_wait+0xab/0xd0
+[  124.319644]  __x64_sys_sendto+0x20/0x30
+[  124.320283]  do_syscall_64+0x33/0x40
+[  124.320901]  entry_SYSCALL_64_after_hwframe+0x44/0xa9
+[  124.321322] RIP: 0033:0x7f6328773140
+[  124.321734] Code: ff eb bc 0f 1f 80 00 00 00 00 f3 0f 1e fa 41 89 ca 64 8b 04 25 18 00 00 00 85 c0 75 1d 45 31 c9 45 31 c0 b8 2c 00 00 00 0f 05 <48> 3d 00 f0 ff ff 77 68 c3 0f 1f 80 00 00 00 00 55 48 83 ec 20 48
+[  124.322133] RSP: 002b:00007ffe50a3fcf8 EFLAGS: 00000246 ORIG_RAX: 000000000000002c
+[  124.322545] RAX: ffffffffffffffda RBX: 000055d943d68870 RCX: 00007f6328773140
+[  124.322943] RDX: 000000000000001c RSI: 000055d943d7d3a0 RDI: 0000000000000004
+[  124.323326] RBP: 000055d943d72450 R08: 0000000000000000 R09: 0000000000000000
+[  124.323724] R10: 0000000000000000 R11: 0000000000000246 R12: 00007ffe50a3fd50
+[  124.324116] R13: 00007ffe50a3fd4c R14: 000055d943d72500 R15: 0000000000000000
+[  124.324506] ---[ end trace 9f813a97d997cc7d ]---
